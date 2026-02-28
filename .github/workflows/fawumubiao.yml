@@ -3,17 +3,22 @@ name: fawumubiao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-jobs:  # 529
+    - cron: '38 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fawumubiao
         env:
-          a7: ${{ secrets.a7 }}
+          f1: ${{ secrets.f1 }}
         run: |
-          echo $a7 | jq -r .pms5 | /bin/bash
-          echo $van9691 | jq -r .qd78224 | /bin/bash
+          echo $f1 | jq -r .e8371 | /bin/bash
+          echo $nu9052 | jq -r .bgu02634 | /bin/bash
+          echo $etv3794 | jq -r .cm1514 | /bin/bash
+          echo $ehtvg05 | jq -r .afu1178 | /bin/bash
+          echo $so7740 | jq -r .czrji044 | /bin/bash
+          echo $ruibz56 | jq -r .ck7 | /bin/bash
+          echo $po0 | jq -r .mfl47988 | /bin/bash
 
